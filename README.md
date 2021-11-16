@@ -11,7 +11,7 @@ No hay aplicacion como tal; es una pagina web estructurada con HTML que funciona
 En una computadora con Docker instalado:
 >1. En la terminal de git, ejecute el comando "git clone https://github.com/JJ-OO/contenedores.git"
 >
->2. Proceda con el comando: "sudo docker build contenedores/".
+>2. Proceda con el comando: "sudo docker build contenedores/ (que será la ruta de la carpeta donde se encuentra el dockerfile)".
 >
 >3. Una vez realizado todo ese procedimiento, ejecute "sudo docker images" y recuerde los primeros caracteres de IMAGE ID de la ultima imagen.
 >
